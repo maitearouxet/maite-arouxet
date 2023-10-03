@@ -1,0 +1,22 @@
+header {
+    background-color: $color_principal;
+    text-align: center;
+    padding: 5px;
+    #LOGO-HEADER { 
+        height: 150px;
+    }
+    nav {
+        ul {
+            li {
+                a {
+                    text-decoration: none;
+                    padding: 10px;
+                    font-family: $fuente_titulos;
+                    font-size: 25px;
+                    color: $texto_claro;
+                    text-transform: uppercase;
+                }
+            }
+        }
+    }
+}

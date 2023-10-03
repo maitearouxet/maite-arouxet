@@ -1,0 +1,17 @@
+body {
+    background-color: $texto_oscuro;
+    margin: 0;
+}
+
+h1 { 
+    color:$color_principal;
+    font-size: 40px;
+    font-family: $fuente_titulos;
+    text-transform: uppercase;
+}
+
+p {
+    color: $texto_claro;
+    font-size: 18px;
+    font-family: $fuente_texto;
+}

@@ -1,72 +1,56 @@
-/*IMPORTACION DE FUENTES*/
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Josefin+Sans:wght@400;700&family=Playfair+Display&display=swap');
-
-
-/* ESTILOS DE ETIQUETAS GLOBALES */
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Josefin+Sans:wght@400;700&family=Playfair+Display&display=swap");
 body {
-    background-color: #222222;
-    margin: 0;
+  background-color: #222222;
+  margin: 0;
 }
 
-h1 { 
-    color:#e5a43c;
-    font-size: 40px;
-    font-family: 'Josefin Sans', sans-serif;
-    text-transform: uppercase;
+h1 {
+  color: #e5a43c;
+  font-size: 40px;
+  font-family: "Josefin Sans", sans-serif;
+  text-transform: uppercase;
 }
 
 p {
-    color: #EEEEEE;
-    font-size: 18px;
-    font-family: 'Playfair Display', serif;
+  color: #EEEEEE;
+  font-size: 18px;
+  font-family: "Playfair Display", serif;
 }
 
-
-/*ESTILO DE PLANTILLA GENERAL*/
-
-/* HEADER */
 header {
-    background-color: #e5a43c;
-    text-align: center;
-    padding: 5px;
+  background-color: #e5a43c;
+  text-align: center;
+  padding: 5px;
+}
+header #LOGO-HEADER {
+  height: 150px;
+}
+header nav ul li a {
+  text-decoration: none;
+  padding: 10px;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 25px;
+  color: #EEEEEE;
+  text-transform: uppercase;
 }
 
-
-nav ul li a {
-    text-decoration: none;
-    padding: 10px;
-    font-family: 'Josefin Sans', sans-serif;
-    font-size: 25px;
-    color: #EEEEEE;
-    text-transform: uppercase;
-
-}
-
-#LOGO-HEADER {
-    height: 150px;
-}
-
-/* FOOTER */
 footer {
-    background-color: #172333;
-    padding: 25px 0px;
+  background-color: #172333;
+  padding: 25px 0px;
 }
 
-
-/*ESTILOS DE INDEX*/
-
-/*ESTILO DE IMAGEN DE PORTADA PRINCIPAL*/
 #IMAGEN-DE-PORTADA {
-    height: 800px;
-    background-image: url("../imagenes/restaurant-frente.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+  height: 800px;
+  background-image: url("../imagenes/restaurant-frente.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
-/*ESTILO TEXTO PRINCIPAL*/
 #DESCRIPCION-PLATOS {
-    padding: 60px 0px;
-    text-align: center;
-    background-color: #172333;
+  padding: 60px 0px;
+  text-align: center;
+  background-color: #172333;
 }
+
+/*# sourceMappingURL=style.css.map */

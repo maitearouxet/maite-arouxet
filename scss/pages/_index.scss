@@ -1,0 +1,15 @@
+// ESTILO DE IMAGEN DE PORTADA PRINCIPAL
+#IMAGEN-DE-PORTADA {
+    height: 800px;
+    background-image: url("../imagenes/restaurant-frente.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+// ESTILO TEXTO PRINCIPAL
+#DESCRIPCION-PLATOS {
+    padding: 60px 0px;
+    text-align: center;
+    background-color: $color_secundario;
+}
