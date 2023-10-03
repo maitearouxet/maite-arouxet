@@ -4,6 +4,11 @@ header {
     padding: 5px;
     #LOGO-HEADER { 
         height: 150px;
+        transition: all .3s ease;
+        &:hover {
+            transform: rotate(360deg);
+            transition: all 1s ease;
+        }
     }
     nav {
         ul {
@@ -15,6 +20,9 @@ header {
                     font-size: 25px;
                     color: $texto_claro;
                     text-transform: uppercase;
+                }
+                &:hover {
+                    border-bottom: 3px solid $color_secundario;
                 }
             }
         }
